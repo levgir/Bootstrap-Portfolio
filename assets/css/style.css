@@ -1,0 +1,45 @@
+/* navbar specific css */
+.navbarContainer {
+    padding: 0;
+}
+
+.navbarItems {
+    line-height: 40px;
+    background-color: lightseagreen;
+    color: white;
+}
+
+/* content page css */
+.formContainer {
+    margin-top: 20px;
+}
+
+/* about page css */
+.aboutContainer {
+    padding: 0;
+    margin: 0;
+}
+
+/* portfolio page css */
+.portfolioImageDiv {
+    padding: 0;
+    margin: 15px;
+}
+.portfolio-image {
+    width: 100%;
+    height: 100%;
+}
+
+.text-block {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 8px 8px;
+}
+
+
