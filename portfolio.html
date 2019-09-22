@@ -14,16 +14,17 @@
 <body>
 
     <div class="container.fluid">
-        <div class="row-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light navbarContainer">
-                <div class="mr-auto navbarItems">
-                    <a class="navbar-brand" href="#">Levi Giraud</a>
+        <div class="container col-12 navbarHeader">
+
+            <nav class="navbar navbar-expand-lg navbar-light navbarContainer d-flex">
+                <div class="navbarItems">
+                    <a class="navbar-brand" style="color: white;" href="#">Levi Giraud</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
@@ -37,17 +38,24 @@
                     </ul>
                 </div>
             </nav>
+
         </div>
 
-        <div class="container">
+        <div class="container col-6" id="portfolio">
             <div class="row">
-                <div class="col-2 portfolioImageDiv">
+                <div class="col-12 section-headers">
+                    <h1>Portfolio</h1>
+                </div>
+            </div>
+            <hr class="section-headers-divider">
+            <div class="row">
+                <div class="col-3 portfolioImageDiv">
                     <img src="assets/images/hangman.jpg" alt="hangman" class="portfolio-image">
                     <div class="text-block">
                         <h7>Hangman</h7>
                     </div>
                 </div>
-                <div class="col-2 portfolioImageDiv">
+                <div class="col-3 portfolioImageDiv">
                     <img src="assets/images/dnd.jpg" alt="dnd" class="portfolio-image">
                     <div class="text-block">
                         <h7>RPG</h7>
@@ -55,13 +63,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-2 portfolioImageDiv">
+                <div class="col-3 portfolioImageDiv">
                     <img src="assets/images/trivialpursuit.jpg" alt="trivia" class="portfolio-image">
                     <div class="text-block">
                         <h7>Trivia Game</h7>
                     </div>
                 </div>
-                <div class="col-2 portfolioImageDiv">
+                <div class="col-3 portfolioImageDiv">
                     <img src="assets/images/rutgers.png" alt="rutgers" class="portfolio-image">
                     <div class="text-block">
                         <h7>Rutgers Info Widget</h7>
@@ -69,29 +77,26 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-2 portfolioImageDiv">
+                <div class="col-3 portfolioImageDiv">
                     <img src="assets/images/rockpaperscissors.png" alt="rockpaperscissors" class="portfolio-image">
                     <div class="text-block">
                         <h7>Rock Paper Scissors</h7>
                     </div>
                 </div>
             </div>
-
-
-
         </div>
+    </div>
 
 
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

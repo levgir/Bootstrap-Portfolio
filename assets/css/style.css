@@ -1,23 +1,91 @@
+.navbarHeader{
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    margin: 0px 0px 20px 0px;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #efeee7;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    height: 100%;
+    background-image: url(../images/interlaced.png);
+}
+
+footer {
+    background-color: #666666;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    border-top: solid 6px #4aaaa5;
+    color: #ffffff;
+    font-size: 8pt;
+    text-align: center;
+}
+
+#footerText {
+    padding-top: 10px;
+}
+
+/* reusable section elements */
+.section-headers-divider {
+    border: 1px solid lightgray;
+    padding: 0;
+    margin-top: 0;
+}
+
+.section-headers {
+    color: #4aaaa5;
+    line-height: 300%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 /* navbar specific css */
 .navbarContainer {
     padding: 0;
+    margin-left: 25%;
 }
 
 .navbarItems {
     line-height: 40px;
     background-color: lightseagreen;
-    color: white;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    margin: 0;
 }
 
-/* content page css */
-.formContainer {
+.navbar-brand {
+    margin: 0;
+}
+
+
+/* contact page css */
+#contactMe {
+    background-color: #ffffff;
     margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1pt solid #dddddd;
+    padding: 0px 30px 0px;
+}
+
+#contactSubmit {
+    margin-bottom: 10px;
 }
 
 /* about page css */
-.aboutContainer {
-    padding: 0;
-    margin: 0;
+#aboutMe {
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1pt solid #dddddd;
+    padding: 0px 30px 0px;
 }
 
 /* portfolio page css */
@@ -25,9 +93,19 @@
     padding: 0;
     margin: 15px;
 }
+
+#portfolio {
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1pt solid #dddddd;
+    padding: 0px 30px 0px;
+}
+
 .portfolio-image {
     width: 100%;
     height: 100%;
+    padding: 0;
 }
 
 .text-block {
