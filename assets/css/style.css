@@ -13,10 +13,11 @@ html {
 body {
     background-color: #efeee7;
     margin: 0;
-    padding: 0;
+    padding: 0px 0px 40px 0px;
     top: 0;
     height: 100%;
     background-image: url(../images/interlaced.png);
+    
 }
 
 footer {
@@ -51,7 +52,6 @@ footer {
 /* navbar specific css */
 .navbarContainer {
     padding: 0;
-    margin-left: 25%;
 }
 
 .navbarItems {
